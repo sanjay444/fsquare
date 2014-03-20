@@ -13,7 +13,6 @@
 		86A97E2918DB813F0044C9C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86A97E2718DB813F0044C9C4 /* InfoPlist.strings */; };
 		86A97E2B18DB813F0044C9C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A97E2A18DB813F0044C9C4 /* main.m */; };
 		86A97E2F18DB813F0044C9C4 /* SANAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A97E2E18DB813F0044C9C4 /* SANAppDelegate.m */; };
-		86A97E3218DB813F0044C9C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A97E3018DB813F0044C9C4 /* Main.storyboard */; };
 		86A97E3518DB813F0044C9C4 /* SANViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A97E3418DB813F0044C9C4 /* SANViewController.m */; };
 		86A97E3718DB813F0044C9C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A97E3618DB813F0044C9C4 /* Images.xcassets */; };
 		86A97E3E18DB813F0044C9C4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A97E3D18DB813F0044C9C4 /* XCTest.framework */; };
@@ -22,6 +21,18 @@
 		86A97E4818DB813F0044C9C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86A97E4618DB813F0044C9C4 /* InfoPlist.strings */; };
 		86A97E4A18DB813F0044C9C4 /* fsquareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A97E4918DB813F0044C9C4 /* fsquareTests.m */; };
 		86A97E5518DB81B20044C9C4 /* SANTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A97E5418DB81B20044C9C4 /* SANTableViewController.m */; };
+		86A97E6818DB845C0044C9C4 /* Foursquare2.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A97E5918DB845C0044C9C4 /* Foursquare2.m */; };
+		86A97E6918DB845C0044C9C4 /* FSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A97E5B18DB845C0044C9C4 /* FSKeychain.m */; };
+		86A97E6A18DB845C0044C9C4 /* FSOAuthNoAppStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A97E5D18DB845C0044C9C4 /* FSOAuthNoAppStore.m */; };
+		86A97E6B18DB845C0044C9C4 /* FSOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A97E5F18DB845C0044C9C4 /* FSOperation.m */; };
+		86A97E6C18DB845C0044C9C4 /* FSWebLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A97E6118DB845C0044C9C4 /* FSWebLogin.m */; };
+		86A97E6D18DB845C0044C9C4 /* FSWebLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86A97E6218DB845C0044C9C4 /* FSWebLogin.xib */; };
+		86A97E6E18DB845C0044C9C4 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 86A97E6318DB845C0044C9C4 /* pin.png */; };
+		86A97E6F18DB845C0044C9C4 /* pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86A97E6418DB845C0044C9C4 /* pin@2x.png */; };
+		86A97E7018DB845C0044C9C4 /* poweredByFoursquare_gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 86A97E6518DB845C0044C9C4 /* poweredByFoursquare_gray.png */; };
+		86A97E7118DB845C0044C9C4 /* poweredByFoursquare_gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86A97E6618DB845C0044C9C4 /* poweredByFoursquare_gray@2x.png */; };
+		86A97E7318DB88760044C9C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A97E7218DB88760044C9C4 /* Main.storyboard */; };
+		86A97E7618DB8A720044C9C4 /* POI.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A97E7518DB8A720044C9C4 /* POI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +56,6 @@
 		86A97E2C18DB813F0044C9C4 /* fsquare-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fsquare-Prefix.pch"; sourceTree = "<group>"; };
 		86A97E2D18DB813F0044C9C4 /* SANAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SANAppDelegate.h; sourceTree = "<group>"; };
 		86A97E2E18DB813F0044C9C4 /* SANAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SANAppDelegate.m; sourceTree = "<group>"; };
-		86A97E3118DB813F0044C9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86A97E3318DB813F0044C9C4 /* SANViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SANViewController.h; sourceTree = "<group>"; };
 		86A97E3418DB813F0044C9C4 /* SANViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SANViewController.m; sourceTree = "<group>"; };
 		86A97E3618DB813F0044C9C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -56,6 +66,24 @@
 		86A97E4918DB813F0044C9C4 /* fsquareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fsquareTests.m; sourceTree = "<group>"; };
 		86A97E5318DB81B20044C9C4 /* SANTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SANTableViewController.h; sourceTree = "<group>"; };
 		86A97E5418DB81B20044C9C4 /* SANTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SANTableViewController.m; sourceTree = "<group>"; };
+		86A97E5818DB845C0044C9C4 /* Foursquare2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Foursquare2.h; sourceTree = "<group>"; };
+		86A97E5918DB845C0044C9C4 /* Foursquare2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Foursquare2.m; sourceTree = "<group>"; };
+		86A97E5A18DB845C0044C9C4 /* FSKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKeychain.h; sourceTree = "<group>"; };
+		86A97E5B18DB845C0044C9C4 /* FSKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSKeychain.m; sourceTree = "<group>"; };
+		86A97E5C18DB845C0044C9C4 /* FSOAuthNoAppStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSOAuthNoAppStore.h; sourceTree = "<group>"; };
+		86A97E5D18DB845C0044C9C4 /* FSOAuthNoAppStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSOAuthNoAppStore.m; sourceTree = "<group>"; };
+		86A97E5E18DB845C0044C9C4 /* FSOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSOperation.h; sourceTree = "<group>"; };
+		86A97E5F18DB845C0044C9C4 /* FSOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSOperation.m; sourceTree = "<group>"; };
+		86A97E6018DB845C0044C9C4 /* FSWebLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSWebLogin.h; sourceTree = "<group>"; };
+		86A97E6118DB845C0044C9C4 /* FSWebLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSWebLogin.m; sourceTree = "<group>"; };
+		86A97E6218DB845C0044C9C4 /* FSWebLogin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSWebLogin.xib; sourceTree = "<group>"; };
+		86A97E6318DB845C0044C9C4 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		86A97E6418DB845C0044C9C4 /* pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin@2x.png"; sourceTree = "<group>"; };
+		86A97E6518DB845C0044C9C4 /* poweredByFoursquare_gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poweredByFoursquare_gray.png; sourceTree = "<group>"; };
+		86A97E6618DB845C0044C9C4 /* poweredByFoursquare_gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poweredByFoursquare_gray@2x.png"; sourceTree = "<group>"; };
+		86A97E7218DB88760044C9C4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		86A97E7418DB8A720044C9C4 /* POI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POI.h; sourceTree = "<group>"; };
+		86A97E7518DB8A720044C9C4 /* POI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +113,7 @@
 		86A97E1218DB813F0044C9C4 = {
 			isa = PBXGroup;
 			children = (
+				86A97E5618DB845C0044C9C4 /* Foursquare2 */,
 				86A97E2418DB813F0044C9C4 /* fsquare */,
 				86A97E4318DB813F0044C9C4 /* fsquareTests */,
 				86A97E1D18DB813F0044C9C4 /* Frameworks */,
@@ -117,9 +146,11 @@
 			children = (
 				86A97E2D18DB813F0044C9C4 /* SANAppDelegate.h */,
 				86A97E2E18DB813F0044C9C4 /* SANAppDelegate.m */,
-				86A97E3018DB813F0044C9C4 /* Main.storyboard */,
+				86A97E7418DB8A720044C9C4 /* POI.h */,
+				86A97E7518DB8A720044C9C4 /* POI.m */,
 				86A97E5318DB81B20044C9C4 /* SANTableViewController.h */,
 				86A97E5418DB81B20044C9C4 /* SANTableViewController.m */,
+				86A97E7218DB88760044C9C4 /* Main.storyboard */,
 				86A97E3318DB813F0044C9C4 /* SANViewController.h */,
 				86A97E3418DB813F0044C9C4 /* SANViewController.m */,
 				86A97E3618DB813F0044C9C4 /* Images.xcassets */,
@@ -155,6 +186,28 @@
 				86A97E4618DB813F0044C9C4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86A97E5618DB845C0044C9C4 /* Foursquare2 */ = {
+			isa = PBXGroup;
+			children = (
+				86A97E5818DB845C0044C9C4 /* Foursquare2.h */,
+				86A97E5918DB845C0044C9C4 /* Foursquare2.m */,
+				86A97E5A18DB845C0044C9C4 /* FSKeychain.h */,
+				86A97E5B18DB845C0044C9C4 /* FSKeychain.m */,
+				86A97E5C18DB845C0044C9C4 /* FSOAuthNoAppStore.h */,
+				86A97E5D18DB845C0044C9C4 /* FSOAuthNoAppStore.m */,
+				86A97E5E18DB845C0044C9C4 /* FSOperation.h */,
+				86A97E5F18DB845C0044C9C4 /* FSOperation.m */,
+				86A97E6018DB845C0044C9C4 /* FSWebLogin.h */,
+				86A97E6118DB845C0044C9C4 /* FSWebLogin.m */,
+				86A97E6218DB845C0044C9C4 /* FSWebLogin.xib */,
+				86A97E6318DB845C0044C9C4 /* pin.png */,
+				86A97E6418DB845C0044C9C4 /* pin@2x.png */,
+				86A97E6518DB845C0044C9C4 /* poweredByFoursquare_gray.png */,
+				86A97E6618DB845C0044C9C4 /* poweredByFoursquare_gray@2x.png */,
+			);
+			path = Foursquare2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +287,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A97E6F18DB845C0044C9C4 /* pin@2x.png in Resources */,
+				86A97E6D18DB845C0044C9C4 /* FSWebLogin.xib in Resources */,
 				86A97E3718DB813F0044C9C4 /* Images.xcassets in Resources */,
+				86A97E7118DB845C0044C9C4 /* poweredByFoursquare_gray@2x.png in Resources */,
 				86A97E2918DB813F0044C9C4 /* InfoPlist.strings in Resources */,
-				86A97E3218DB813F0044C9C4 /* Main.storyboard in Resources */,
+				86A97E6E18DB845C0044C9C4 /* pin.png in Resources */,
+				86A97E7318DB88760044C9C4 /* Main.storyboard in Resources */,
+				86A97E7018DB845C0044C9C4 /* poweredByFoursquare_gray.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +313,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A97E7618DB8A720044C9C4 /* POI.m in Sources */,
 				86A97E5518DB81B20044C9C4 /* SANTableViewController.m in Sources */,
+				86A97E6818DB845C0044C9C4 /* Foursquare2.m in Sources */,
+				86A97E6B18DB845C0044C9C4 /* FSOperation.m in Sources */,
+				86A97E6918DB845C0044C9C4 /* FSKeychain.m in Sources */,
+				86A97E6C18DB845C0044C9C4 /* FSWebLogin.m in Sources */,
+				86A97E6A18DB845C0044C9C4 /* FSOAuthNoAppStore.m in Sources */,
 				86A97E2B18DB813F0044C9C4 /* main.m in Sources */,
 				86A97E2F18DB813F0044C9C4 /* SANAppDelegate.m in Sources */,
 				86A97E3518DB813F0044C9C4 /* SANViewController.m in Sources */,
@@ -287,14 +351,6 @@
 				86A97E2818DB813F0044C9C4 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		86A97E3018DB813F0044C9C4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				86A97E3118DB813F0044C9C4 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		86A97E4618DB813F0044C9C4 /* InfoPlist.strings */ = {
@@ -467,6 +523,7 @@
 				86A97E4F18DB813F0044C9C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86A97E5018DB813F0044C9C4 /* Build configuration list for PBXNativeTarget "fsquareTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +532,7 @@
 				86A97E5218DB813F0044C9C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface SANViewController : UIViewController
+@interface SANViewController : UIViewController <CLLocationManagerDelegate>
 
 @end
