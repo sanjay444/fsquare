@@ -21,6 +21,7 @@
 		86A97E4018DB813F0044C9C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86A97E2218DB813F0044C9C4 /* UIKit.framework */; };
 		86A97E4818DB813F0044C9C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86A97E4618DB813F0044C9C4 /* InfoPlist.strings */; };
 		86A97E4A18DB813F0044C9C4 /* fsquareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A97E4918DB813F0044C9C4 /* fsquareTests.m */; };
+		86A97E5518DB81B20044C9C4 /* SANTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A97E5418DB81B20044C9C4 /* SANTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		86A97E4518DB813F0044C9C4 /* fsquareTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fsquareTests-Info.plist"; sourceTree = "<group>"; };
 		86A97E4718DB813F0044C9C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		86A97E4918DB813F0044C9C4 /* fsquareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fsquareTests.m; sourceTree = "<group>"; };
+		86A97E5318DB81B20044C9C4 /* SANTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SANTableViewController.h; sourceTree = "<group>"; };
+		86A97E5418DB81B20044C9C4 /* SANTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SANTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				86A97E2D18DB813F0044C9C4 /* SANAppDelegate.h */,
 				86A97E2E18DB813F0044C9C4 /* SANAppDelegate.m */,
 				86A97E3018DB813F0044C9C4 /* Main.storyboard */,
+				86A97E5318DB81B20044C9C4 /* SANTableViewController.h */,
+				86A97E5418DB81B20044C9C4 /* SANTableViewController.m */,
 				86A97E3318DB813F0044C9C4 /* SANViewController.h */,
 				86A97E3418DB813F0044C9C4 /* SANViewController.m */,
 				86A97E3618DB813F0044C9C4 /* Images.xcassets */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A97E5518DB81B20044C9C4 /* SANTableViewController.m in Sources */,
 				86A97E2B18DB813F0044C9C4 /* main.m in Sources */,
 				86A97E2F18DB813F0044C9C4 /* SANAppDelegate.m in Sources */,
 				86A97E3518DB813F0044C9C4 /* SANViewController.m in Sources */,
