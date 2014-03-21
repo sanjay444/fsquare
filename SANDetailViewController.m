@@ -38,6 +38,8 @@
     
     __addressLabel.text = [NSString stringWithFormat:@"%@ ", self.venue.address];
     
+    self.title=@"fsquare";
+    
     
     
     __checkinsLabel.text = [NSString stringWithFormat:@"%i here now", self.venue.numberOfPeopleHereNow];
