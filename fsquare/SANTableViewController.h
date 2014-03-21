@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SANTableViewController : UITableViewController
+@interface SANTableViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+
+@property (strong, nonatomic) NSArray *venues;
+
+- (void)reloadChangedImageForCellAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
